@@ -18,4 +18,6 @@ public interface DemoRepository {
 
     Page<DemoEntity> TodosLosDemosPage(Pageable pageable);
 
+    Page<DemoEntity>demosPage(String nombre, Pageable pageable);
+
 }

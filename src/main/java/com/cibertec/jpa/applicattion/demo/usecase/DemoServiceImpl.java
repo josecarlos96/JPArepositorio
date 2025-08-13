@@ -44,4 +44,9 @@ public class DemoServiceImpl implements DemoService {
 
         return demoRepository.TodosLosDemosPage(pageable);
     }
+
+    @Override
+    public Page<DemoEntity> demosPage(String nombre, Pageable pageable) {
+        return demoRepository.demosPage(nombre, pageable);
+    }
 }

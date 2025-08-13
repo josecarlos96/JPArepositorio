@@ -27,9 +27,13 @@ public class init {
 //        lista.forEach(d-> log.info("Data sin paginar: {}", d.toString()));
 
 
-        Pageable pageable = PageRequest.of(6, 10);
-        Page<DemoEntity> paginado = demoService.demosPage(pageable);
+//        Pageable pageable = PageRequest.of(6, 10);
+//        Page<DemoEntity> paginado = demoService.demosPage(pageable);
+//
+//        paginado.forEach(p->  log.info("Data paginada: {}", p.toString()));
 
-        paginado.forEach(p->  log.info("Data paginada: {}", p.toString()));
+        Pageable pageable = PageRequest.of(0, 50);
+        Page<DemoEntity> paginado = demoService.demosPage("Nombre ",pageable);
+
     }
 }
