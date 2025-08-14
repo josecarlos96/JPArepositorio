@@ -30,7 +30,7 @@ public class DemoRepositoryImpl implements DemoRepository {
 
     @Override
     public List<DemoModel> TodosLosDemos() {
-        return demoRepositoryJpa.findByNombre("Nombre ")
+        return demoRepositoryJpa.findByNombre("Jose Carlos")
                 .stream()
                 .map(demoMapper::DemoMap)
                 .toList();
@@ -59,7 +59,7 @@ public class DemoRepositoryImpl implements DemoRepository {
     }
 
     @Override
-    public Page<DemoEntity> demosPage(String nombre, Pageable pageable) {
-        return demoRepositoryJpa.buscarPorNombrePaginado(nombre,pageable);
+    public Page<DemoEntity> demosPage(String nombre,String esto, Pageable pageable) {
+        return demoRepositoryJpa.buscarPorNombrePaginado(nombre,esto,pageable);
     }
 }

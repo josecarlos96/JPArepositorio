@@ -46,7 +46,7 @@ public class DemoServiceImpl implements DemoService {
     }
 
     @Override
-    public Page<DemoEntity> demosPage(String nombre, Pageable pageable) {
-        return demoRepository.demosPage(nombre, pageable);
+    public Page<DemoEntity> demosPage(String nombre,String esto, Pageable pageable) {
+        return demoRepository.demosPage(nombre, esto, pageable);
     }
 }

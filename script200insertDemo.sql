@@ -1,3 +1,17 @@
+INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion)
+VALUES ('Jose Carlos', 'Descripcion 1', '2025-01-01 10:00:00', 'usuario1', '2025-02-01 11:00:00', 'usuario2');
+
+INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion)
+VALUES ('Jose Carlos', 'Descripcion 2', '2025-01-02 10:00:00', 'usuario2', '2025-02-02 11:00:00', 'usuario3');
+
+INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion)
+VALUES ('Jose Carlos', 'Descripcion 3', '2025-01-03 10:00:00', 'usuario3', '2025-02-03 11:00:00', 'usuario4');
+
+INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion)
+VALUES ('Jose Carlos', 'Descripcion 4', '2025-01-04 10:00:00', 'usuario4', '2025-02-04 11:00:00', 'usuario5');
+
+INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion)
+VALUES ('Jose Carlos', 'Descripcion 5', '2025-01-05 10:00:00', 'usuario5', '2025-02-05 11:00:00', 'usuario6');
 INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion) VALUES ('Jose Carlos', 'Descripcion 6', '2025-01-07 10:00:00', 'usuario6', '2025-02-07 11:00:00', 'usuario7');
 INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion) VALUES ('Jose Carlos', 'Descripcion 7', '2025-01-08 10:00:00', 'usuario7', '2025-02-08 11:00:00', 'usuario8');
 INSERT INTO demo (nombre, descripcion, fecha_creacion, usuario_creacion, fecha_actualizacion, usuario_actualizacion) VALUES ('Jose Carlos', 'Descripcion 8', '2025-01-09 10:00:00', 'usuario8', '2025-02-09 11:00:00', 'usuario9');

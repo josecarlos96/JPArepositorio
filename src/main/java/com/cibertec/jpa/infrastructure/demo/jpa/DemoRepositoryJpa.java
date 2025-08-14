@@ -26,10 +26,14 @@ public interface DemoRepositoryJpa extends JpaRepository<DemoEntity, Long> {
                          ,usuario_actualizacion
                          ,usuario_creacion
                     from demo
-                    where nombre = :name
+                    where nombre = :name and usuario_creacion like :esto
             """,
             nativeQuery = true)
-    Page<DemoEntity> buscarPorNombrePaginado(@Param("name")String name, Pageable pageable);
+    Page<DemoEntity> buscarPorNombrePaginado(
+            @Param("name")String name,
+            @Param("esto")String esto,
+            Pageable pageable
+    );
 
 
 

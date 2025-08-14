@@ -16,6 +16,6 @@ public interface DemoService {
 
     Page<DemoEntity> demosPage(Pageable pageable);
 
-    Page<DemoEntity>demosPage(String nombre, Pageable pageable);
+    Page<DemoEntity>demosPage(String nombre,String esto, Pageable pageable);
 
 }
