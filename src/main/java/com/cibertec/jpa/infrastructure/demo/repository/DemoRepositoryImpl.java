@@ -55,7 +55,7 @@ public class DemoRepositoryImpl implements DemoRepository {
 
     @Override
     public Page<DemoEntity> TodosLosDemosPage(Pageable pageable) {
-        return demoRepositoryJpa.findByNombreContaining("Nombre ",pageable);
+        return demoRepositoryJpa.findByNombreContaining("Jose Carlos",pageable);
     }
 
     @Override
