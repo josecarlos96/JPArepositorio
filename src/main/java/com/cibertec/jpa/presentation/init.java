@@ -35,5 +35,7 @@ public class init {
         Pageable pageable = PageRequest.of(0, 50);
         Page<DemoEntity> paginado = demoService.demosPage("Nombre ",pageable);
 
+        paginado.forEach(p -> log.info("Data paginada: {}", p.toString()));
+
     }
 }

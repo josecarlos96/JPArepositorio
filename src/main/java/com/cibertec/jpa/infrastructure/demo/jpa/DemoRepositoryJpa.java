@@ -21,7 +21,7 @@ public interface DemoRepositoryJpa extends JpaRepository<DemoEntity, Long> {
                         demo_id
                          ,descripcion
                          ,fecha_actualizacion
-                         ,fecha_crecion
+                         ,fecha_creacion
                          ,nombre
                          ,usuario_actualizacion
                          ,usuario_creacion
